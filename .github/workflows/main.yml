@@ -1,0 +1,128 @@
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated
+$ git init
+git remote add origin https://github.com/Alexandre4800/Gemap.git
+git add .
+git commit -m "Versão inicial do GeMap com CI"
+git branch -M main
+git push -u origin main
+Initialized empty Git repository in V:/Usuário/Desktop/GeMap_Recreated/.git/
+warning: in the working copy of 'app/build.gradle', LF will be replaced by CRLF
+the next time Git touches it
+warning: in the working copy of 'app/src/main/AndroidManifest.xml', LF will be
+eplaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/gemap/MainActivi
+y.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_main.xml', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/values/styles.xml', LF will b
+ replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the
+next time Git touches it
+warning: in the working copy of 'settings.gradle', LF will be replaced by CRLF
+he next time Git touches it
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Alexandre@AlDESK.(none)')
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Alexandre4800/Gemap.git'
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ ^[[200~git config --global user.name "Alexandre"
+bash: $'\E[200~git': command not found
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git config --global user.email "seuemail@exemplo.com"
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git config --global user.name "Alexandre"
+git config --global user.email "alexandrealves_38@hotmail.com"
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ ^[[200~git commit --amend --reset-author
+bash: $'\E[200~git': command not found
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Alexandre4800/Gemap.git'
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app/build.gradle
+        new file:   app/src/main/AndroidManifest.xml
+        new file:   app/src/main/java/com/example/gemap/MainActivity.java
+        new file:   app/src/main/res/layout/activity_main.xml
+        new file:   app/src/main/res/mipmap/ic_launcher.png
+        new file:   app/src/main/res/values/styles.xml
+        new file:   build.gradle
+        new file:   settings.gradle
+
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git add .
+warning: in the working copy of 'app/build.gradle', LF will be replaced by CRLF
+warning: in the working copy of 'app/src/main/AndroidManifest.xml', LF will be
+warning: in the working copy of 'app/src/main/java/com/example/gemap/MainActivi
+warning: in the working copy of 'app/src/main/res/layout/activity_main.xml', LF
+warning: in the working copy of 'app/src/main/res/values/styles.xml', LF will b
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the
+warning: in the working copy of 'settings.gradle', LF will be replaced by CRLF
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git commit -m "Versão inicial do GeMap com CI"
+[main (root-commit) 90e9cef] Versão inicial do GeMap com CI
+ 8 files changed, 93 insertions(+)
+ create mode 100644 app/build.gradle
+ create mode 100644 app/src/main/AndroidManifest.xml
+ create mode 100644 app/src/main/java/com/example/gemap/MainActivity.java
+ create mode 100644 app/src/main/res/layout/activity_main.xml
+ create mode 100644 app/src/main/res/mipmap/ic_launcher.png
+ create mode 100644 app/src/main/res/values/styles.xml
+ create mode 100644 build.gradle
+ create mode 100644 settings.gradle
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git branch -M main
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (21/21), 2.47 KiB | 421.00 KiB/s, done.
+Total 21 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Alexandre4800/Gemap.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+Alexandre@Al▒DESK MINGW64 /v/Usuário/Desktop/GeMap_Recreated (main)
+$
